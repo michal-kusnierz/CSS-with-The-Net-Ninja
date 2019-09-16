@@ -10,3 +10,8 @@ h2{
     font-size: 18px;
     color: red;
 }
+
+span {
+    display: block;
+    color: blue;
+}
