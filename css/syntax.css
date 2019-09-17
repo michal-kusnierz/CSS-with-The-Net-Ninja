@@ -44,3 +44,11 @@ that ends in 'pdf'
 a[href$="pdf"]{
     color: green;
 }
+
+/*
+6. grab all the a links that starts with 'http' 
+'^'
+*/
+a[href^="http"]{
+    color: pink;
+}
