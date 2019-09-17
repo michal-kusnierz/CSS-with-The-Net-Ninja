@@ -5,3 +5,11 @@ nth Child Selector - Pseudo-Class
 li:nth-child(1), li:nth-child(7){
     font-weight: bold;
 }
+
+li:nth-child(even){
+    background: grey;
+}
+
+li:nth-child(odd){
+    background: pink;
+}
