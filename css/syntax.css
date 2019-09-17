@@ -1,23 +1,7 @@
-/*
-First and Last Child doesn't work anymore
-after we added h2 amd hr in articles
-*/
+/********************************
+nth Child Selector - Pseudo-Class
+********************************/
 
-article p:first-child{
+li:nth-child(1), li:nth-child(7){
     font-weight: bold;
-}
-
-article p:last-child{
-    color: red;
-}
-
-/*************************************
-First and Last of-Type Pseudo-Class
-*************************************/
-
-article p:first-of-type{
-    font-weight: bold;
-}
-article p:last-of-type{
-    color: pink;
 }
