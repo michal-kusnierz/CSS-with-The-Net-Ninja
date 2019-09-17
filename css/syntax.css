@@ -1,11 +1,12 @@
 /**********************************
-Combining Selector - Pseudo-Class
+The Universal Selector
 **********************************/
-
-article.feature-content{
-    background: red;
+/*
+*{
+ color: red;
 }
+*/
 
-div.feature-content{
-    background: blue;
+body{
+    color: red;
 }
