@@ -1,13 +1,12 @@
 /*
-Adjacent Selectors
-(selects element which comes directly after another element)
--------------------
-here I want to target <p> 
-Published by... 
-</p>
-
+Attribute Selectors
+-----------------
 */
 
-#all-articles h2 +p{
-    color: green;
+/*
+1. any span that have a class attribute:
+*/
+
+span[class]{
+    color: purple;
 }
