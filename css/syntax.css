@@ -1,11 +1,19 @@
-/****************
-Pseudo-Class
-****************/
+/***********************
+Behavioural Pseudo-Class
+************************
+1. when hover
+2. when clicked
+3. after visited
+*/
 
 a:hover{
     color: red;
 }
-  
-#main-content:hover{
-    color: yellowgreen;
+
+a:active{
+    color: orange;
+}
+
+a:visited{
+    color: purple;
 }
