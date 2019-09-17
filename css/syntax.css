@@ -1,29 +1,12 @@
-#main-content p{
-    color: red;
-}
-
 p{
-    color: black;
+    color: red !important;
 }
-/*
-"Hello there" text will be red, because <p> element has lower value
-=> <p> will be red
-*/
 
-.test{
-    color: green;
-}
-/* 
-class '.test' doesn't work, because ID '#main-content' has more value
-=> '.test' will be red
-*/
-
-strong{
+#main-content p{
     color: green;
 }
 
 /*
-element <strong> is inside <p> element
-<p> inherits from ID '#main-content', but <strong> does not
-=> <strong> will be green :)
+I want the <p> red no matter what...
+hence '!important'
 */
