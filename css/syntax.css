@@ -1,6 +1,7 @@
-/********************************
-First and Last Child Pseudo-Class
-********************************/
+/*
+First and Last Child doesn't work anymore
+after we added h2 amd hr in articles
+*/
 
 article p:first-child{
     font-weight: bold;
@@ -8,4 +9,15 @@ article p:first-child{
 
 article p:last-child{
     color: red;
+}
+
+/*************************************
+First and Last of-Type Pseudo-Class
+*************************************/
+
+article p:first-of-type{
+    font-weight: bold;
+}
+article p:last-of-type{
+    color: pink;
 }
