@@ -1,17 +1,7 @@
 /*
-#main-content p{
-    color: red;
-}
-
-or I can be more specific:
-#main-content #sub-content p{
-    color: red;
-}
-
-
-but this should do the trick:
+I want to target child, but not a grandchild...
 */
 
-#sub-content p{
+#main-content > p{
     color: red;
 }
