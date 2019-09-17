@@ -4,21 +4,33 @@ Attribute Selectors
 
 /*
 1. any span that have a class attribute:
-*/
+
 span[class]{
     color: purple;
 }
 
 /*
 2. give the background to div elements with any ID:
-*/
 div[id]{
     background: grey;
 }
 
 /*
 3. give color to links with class .title:
-*/
+a[title]{
+    color: red;
+}
+3b. ...and with more specific title...
 a[title="Search engine"]{
     color: red;
 }
+*/
+/*
+4. pattern matching
+'~='
+give color to all element with class including 'deck' 
+(also 'deck halls')
+*/
+
+span[class~="deck"]{
+    color: purple;
