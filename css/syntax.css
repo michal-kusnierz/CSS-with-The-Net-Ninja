@@ -34,3 +34,13 @@ give color to all element with class including 'deck'
 
 span[class~="deck"]{
     color: purple;
+}
+
+/*
+5. grab all the a links that have 'href' attribute associated with it 
+that ends in 'pdf'
+'$'
+*/
+a[href$="pdf"]{
+    color: green;
+}
