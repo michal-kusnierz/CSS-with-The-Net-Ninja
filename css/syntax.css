@@ -1,14 +1,23 @@
-/**********************************
-The Universal Selector
-**********************************/
-
-*{
- color: red;
+/*h1{
+    font-size: 48px;
 }
 
-
-/*
-body{
-    color: red;
+h2{
+    font-size: 32px;
 }
-*/
+
+p{
+    font-size: 16px;
+}*/
+
+article{
+    font-size: 16px;
+}
+
+article h2{
+    font-size: 3em;
+}
+
+article p{
+    font-size: 50%;
+}
