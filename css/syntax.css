@@ -1,19 +1,11 @@
-/***********************
-Behavioural Pseudo-Class
-************************
-1. when hover
-2. when clicked
-3. after visited
-*/
+/********************************
+First and Last Child Pseudo-Class
+********************************/
 
-a:hover{
+article p:first-child{
+    font-weight: bold;
+}
+
+article p:last-child{
     color: red;
-}
-
-a:active{
-    color: orange;
-}
-
-a:visited{
-    color: purple;
 }
