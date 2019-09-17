@@ -19,6 +19,6 @@ div[id]{
 /*
 3. give color to links with class .title:
 */
-a[title]{
+a[title="Search engine"]{
     color: red;
 }
