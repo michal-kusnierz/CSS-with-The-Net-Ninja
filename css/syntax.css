@@ -1,7 +1,6 @@
 /***************
 text decoration
 ***************/
-
-a{
-    text-decoration: line-through;
+h1{
+    font-weight: normal;
 }
