@@ -10,3 +10,10 @@ Attribute Selectors
 span[class]{
     color: purple;
 }
+
+/*
+2. give the background to div elements with any ID:
+*/
+div[id]{
+    background: grey;
+}
