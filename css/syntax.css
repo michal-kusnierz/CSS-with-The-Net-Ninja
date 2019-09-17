@@ -2,6 +2,10 @@
 text decoration
 ***************/
 
+article{
+    text-decoration: overline;
+    }
+
 a{
-    text-decoration: none;
+    text-decoration: inherit;
 }
