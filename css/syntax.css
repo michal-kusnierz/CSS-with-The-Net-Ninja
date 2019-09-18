@@ -1,23 +1,15 @@
 /*
-46. multiple backgrounds 
+47. colour 
 */
 
 #banner{
-    background-color: #606060;
     width: 100%;
     height: 300px;
-    background-image: url(https://imgplaceholder.com/30x30/transparent/000/glyphicon-star), url(https://imgplaceholder.com/300x200/transparent/dee220/fa-bicycle);
-    background-repeat: no-repeat, repeat;
-    background-position: center, top left;
-    background-size: 140px, 10%;    
+    /*
+    #code:
+    background-color: #500000;
+    or rgb:
+    */
+    background-color: rgb(250, 150, 60);
 }
-
-/*
-https://imgplaceholder.com/30x30/transparent/000/glyphicon-star
-https://imgplaceholder.com/300x200/transparent/dee220/fa-bicycle
-*/
-
-/*
-1. coma has to go after every image!
-2. the img order matters - the first img is gonna be on top
-*/
+ 
