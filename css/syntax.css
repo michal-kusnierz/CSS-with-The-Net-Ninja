@@ -7,7 +7,36 @@
     padding: 20px;
     margin: 20px;
     float: left;
-    border-top-width: 10px;
-    border-top-style: solid;
-    border-top-color: blue;
+}
+
+.dashed{
+    border: 2px blue dashed;
+}
+
+.dotted{
+    border: 2px blue dotted;
+}
+
+.double{
+    border: 2px blue double;
+}
+
+.groove{
+    border: 10px blue groove;
+}
+
+.inset{
+    border: 10px blue inset;
+}
+
+.outset{
+    border: 10px blue outset;
+}
+
+.ridge{
+    border: 10px blue ridge;
+}
+
+.solid{
+    border: 2px blue solid;
 }
