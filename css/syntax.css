@@ -1,5 +1,5 @@
 /*
-42. width & height 
+43. rounded corners 
 */
 
 #main-content div{
@@ -10,17 +10,21 @@
 .static-width{
     width: 300px;
     height: 100px;
+    border-radius: 30px;
 }
 
 .percentage-width{
     width: 70%;
     height: 50px;
+    border-radius: 5px 10px 20px 40px;
 }
-/* percentage class is good for mobile browsers!
+/* percentage values are good for mobile browsers!
 */
 
 .inline-block{
-    width: 40%;
-    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
 }
+
 
