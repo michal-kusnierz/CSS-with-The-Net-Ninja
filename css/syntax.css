@@ -9,3 +9,7 @@ text colour
 #header h2{
     color: #567398;
 }
+
+#header{
+    background-color: antiquewhite;
+}
