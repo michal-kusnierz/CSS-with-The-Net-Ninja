@@ -3,6 +3,11 @@
 */
 
 p{
-    font-size: 12px;
-    word-spacing: 5px;
+    font-size: 24px;
+    line-height: 18px;
 }
+
+/*
+line-heigh includes the value of font-size
+so when font is of 12px, line must be at least 12px, otherwise next line comes on top of it
+*/
