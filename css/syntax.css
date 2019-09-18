@@ -1,10 +1,14 @@
 /*
-38. padding 
+39. padding/margin - longhand method 
 */
 
 
 .box{
     margin: 30px;
-    padding: 100px 20% 30px 30%;
     border: 1px solid #000;
+    padding: 20px;
+}
+
+.small{
+    padding-left: 2px;
 }
