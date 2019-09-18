@@ -1,26 +1,10 @@
 /*
-37. margin 
+38. padding 
 */
 
-/*.box{
-    margin: 30px 15px;
-    padding: 30px;
-    border: 1px solid #000;
-    width: 300px;
-}
-*/
-/*
-{margin: 30px 20px 15px 5px;}
-=>going clockwise: (top right bottom left)
-
-{margin: 30px 15px}
-=>
-first value goes for top and bottom
-second value goes fot right and left
-*/
 
 .box{
-    margin: 30px 25%;
+    margin: 30px;
+    padding: 30px 20px 10px 5px;
     border: 1px solid #000;
-    width: 50%;
 }
