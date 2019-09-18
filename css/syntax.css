@@ -6,7 +6,10 @@ capitalize every first letter of each word
     text-transform: capitalize;
 }
 
+body{
+    text-transform: uppercase;
+}
 
 body > p{
-    text-transform: uppercase;
+    text-transform: none;
 }
