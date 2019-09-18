@@ -1,13 +1,12 @@
 /*
-34. letter spacing & line height
+35. paragraph spacing 
 */
 
 p{
-    font-size: 12px;
-    line-height: 1.5em;
+    font-size: 14px;
+    line-height: 2em;
+    margin-bottom: 32px;
 }
 
 /*
-line-heigh includes the value of font-size
-so when font is of 12px, line must be at least 12px, otherwise next line comes on top of it
 */
