@@ -5,12 +5,11 @@
 .static-width{
     width: 300px;
     height: 300px;
+    background: url(https://imgplaceholder.com/30x30/transparent/000/glyphicon-star) no-repeat top center;
     background-color: #606060;
-    background-image: url(https://imgplaceholder.com/30x30/transparent/000/glyphicon-star);
-    background-repeat: no-repeat;
-    background-position: bottom right;
     background-size: 200px;
 }
+
 
 /*
 other ways of declaring position:
