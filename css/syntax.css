@@ -1,15 +1,11 @@
 /*
-capitalize every first letter of each word
+text colour
 */
 
-#header p{
-    text-transform: capitalize;
+#header h1{
+    color: chocolate;
 }
 
-body{
-    text-transform: uppercase;
-}
-
-body > p{
-    text-transform: none;
+#header h2{
+    color: #567398;
 }
