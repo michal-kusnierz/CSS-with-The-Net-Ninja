@@ -8,5 +8,17 @@
     background-color: #606060;
     background-image: url(https://imgplaceholder.com/30x30/transparent/000/glyphicon-star);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom right;
+    background-size: 200px;
 }
+
+/*
+other ways of declaring position:
+
+background-position: 80% 60%;}
+background-position: 20px 10px;}
+
+--first position: from the left
+--second position: from the top
+*/
+
