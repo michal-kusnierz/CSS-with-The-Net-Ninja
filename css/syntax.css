@@ -20,7 +20,6 @@
     background: linear-gradient(top, #aadddd 0%, #77aaaa 100%);   
 }
 
-
 /*
 added first background just in case user will have old browser (gradient is rather new in CSS)
 next background overwrites this default
@@ -42,3 +41,9 @@ and we need a VENDOR PREFIX...
 -webkit- (for safari, google chrome)
 */
 
+.button:hover{
+    background: #77aaaa;
+    background: -moz-linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
+    background: -webkit-linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
+    background: linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);   
+}
