@@ -1,5 +1,5 @@
 /*
-49. gradients 
+50. box shadow 
 */
 
 .button{
@@ -17,29 +17,19 @@
     background: #aadddd;
     background: -moz-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
     background: -webkit-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
-    background: linear-gradient(top, #aadddd 0%, #77aaaa 100%);   
-}
-
-/*
-added first background just in case user will have old browser (gradient is rather new in CSS)
-next background overwrites this default
-*/
-
-/*
     background: linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+    box-shadow: 2px 2px 4px 2px rgba(40,40,40,0.6);
 }
-1. direction: top
-2. color
-3. the position of start
-4. colour to change into
-5. the position of end
-*/
-
-/*
-and we need a VENDOR PREFIX...
--moz- (for mozilla)
--webkit- (for safari, google chrome)
-*/
+/* 
+properties:
+box-shadow: 2px 2px 4px 2px rgba(40,40,40,0.6);
+}
+1. horizontal 
+2. and vertical position values
+3. blur
+4. spread (distance of blur)
+5. colour
+ */
 
 .button:hover{
     background: #77aaaa;
